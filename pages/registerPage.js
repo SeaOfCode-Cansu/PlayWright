@@ -27,7 +27,6 @@ exports.RegisterPage = class RegisterPage {
     await this.page.locator("//input[@name='confirm']").fill(password);
   }
   async isSubcribeChecked() {
-    //return await this.page.locator("#input-newsletter-no");
     const subscribeCheckboxElement = await this.page.locator("#input-newsletter-no");
     return subscribeCheckboxElement;
   }

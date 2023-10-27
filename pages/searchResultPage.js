@@ -1,4 +1,3 @@
-//import { strict } from "assert";
 export class SearchResultPage {
   constructor(page) {
     this.page = page; // Assign 'page' to the instance variable.

@@ -1,10 +1,8 @@
 import { test, expect } from "@playwright/test";
-//const { test, expect } = require('@playwright/test');
 import { RegisterPage } from "../../pages/registerPage";
 import { SignInPage } from "../../pages/SignIn";
 import { HomePage } from "../../pages/HomePage";
 import { SearchResultPage } from "../../pages/searchResultPage";
-//import { register } from "module";
 
 const email = "test123ttt61t@gmail.com";
 const password = "Deniz@123";
